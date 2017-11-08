@@ -14,7 +14,7 @@ class ApiController extends Controller
 
     public function ListarCliente() {
 
-      //$clientes = array();
+      //$clientes = array(); XXXXXXXXXXXX
 
       $clientes = Cliente::get();
 
